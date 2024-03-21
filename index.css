@@ -1,0 +1,362 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 8rem;
+  align-items: center;
+}
+.logo {
+  margin-left: 16.5rem;
+}
+.navbar-menu {
+  margin-right: 16.5rem;
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+}
+.navbar-menu ul {
+  display: flex;
+}
+.navbar-menu li {
+  margin: 2.5rem;
+  list-style-type: none;
+}
+.navbar-menu a {
+  text-decoration: none;
+  color: rgba(131, 125, 136, 1);
+}
+.section1 {
+  height: 60rem;
+  background-image: url(./Bitmap.png);
+  display: flex;
+}
+.section1-div {
+  max-width: 54rem;
+  height: 30rem;
+  margin-left: 16.5rem;
+  margin-top: 16.9rem;
+}
+.section1-div h2 {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-size: 7rem;
+  line-height: 6.4rem;
+  color: rgba(255, 255, 255, 1);
+}
+.section1-div p {
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: rgba(255, 255, 255, 1);
+  margin-top: 1.6rem;
+}
+.section1-div button {
+  width: 14rem;
+  height: 4rem;
+  background-color: rgba(45, 38, 65, 1);
+  border-color: white;
+
+  color: white;
+  border-bottom-color: white;
+  margin-top: 2.4rem;
+  text-align: center;
+}
+.img-man {
+  margin-top: 10.5rem;
+  margin-left: 3rem;
+}
+
+.img-man img {
+  border-radius: 12px;
+}
+.decor {
+  position: relative;
+  left: -8rem;
+  overflow: hidden;
+}
+.section2 {
+  margin-top: 36rem;
+}
+.section2 h3 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 7.2rem;
+  line-height: 6.4rem;
+}
+.section2-div {
+  max-width: 111rem;
+  height: 25rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  margin-top: 9.6rem;
+  justify-content: space-between;
+}
+.section2-div h4 {
+  font: 400;
+  font-size: 2.8rem;
+  line-height: 3.8rem;
+  font-family: "DM Serif Display", serif;
+}
+.section2-div p {
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: rgba(131, 125, 136, 1);
+  margin-top: 1.6rem;
+}
+.section3 {
+  background-color: rgba(45, 38, 65, 1);
+  max-width: 111rem;
+  height: 25rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+.section3 h3 {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-size: 7rem;
+  line-height: 6.4rem;
+  color: rgba(255, 255, 255, 1);
+  margin-left: 8rem;
+}
+.section3 button {
+  width: 14rem;
+  height: 4rem;
+  background-color: rgba(45, 38, 65, 1);
+  border-color: white;
+
+  color: white;
+  border-bottom-color: white;
+  margin-top: 2.4rem;
+  text-align: center;
+  margin-left: 31rem;
+}
+footer {
+  margin-top: 10rem;
+  max-width: 100%;
+  height: 23.3rem;
+  background-color: rgba(250, 250, 250, 1);
+}
+.footer-div {
+  width: 111rem;
+  height: 26.5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid rgba(218, 218, 218, 1);
+  padding-bottom: 2rem;
+}
+.navbar-menu2 {
+  display: flex;
+}
+.navbar-menu2 li {
+  margin: 1rem;
+  list-style-type: none;
+}
+.list {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.list div {
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+  color: rgba(45, 38, 65, 1);
+}
+.list div span {
+  margin-top: 1.6rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+@media screen and (min-width: 1024px) and (max-width: 1300px) {
+  .section1-div {
+    margin-left: 6.5rem;
+  }
+  .decor {
+    display: none;
+  }
+  .navbar {
+    width: 100%;
+  }
+  .section2 h3 {
+    margin-left: 47rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .section1-div {
+    margin-left: 1.5rem;
+    max-width: 38rem;
+  }
+  .section1-div h2 {
+    font-size: 5rem;
+    line-height: 4.4rem;
+  }
+  .photo {
+    width: 33rem;
+    height: 40rem;
+    margin-top: 6rem;
+  }
+  .navbar {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 76rem;
+  }
+  .section2 {
+    margin-top: 7rem;
+  }
+  .list {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem 0;
+    width: 76rem;
+  }
+  .decor {
+    display: none;
+  }
+  .list div {
+    width: 30rem;
+  }
+  footer {
+    height: 32rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .section1-div {
+    margin-left: 1.5rem;
+    max-width: 38rem;
+  }
+  .section1-div h2 {
+    font-size: 5rem;
+    line-height: 4.4rem;
+  }
+  .photo {
+    width: 33rem;
+    height: 40rem;
+    margin-top: 6rem;
+  }
+  .navbar {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 76rem;
+  }
+  .section2 {
+    margin-top: 7rem;
+  }
+  .list {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem 0;
+    width: 76rem;
+  }
+  .decor {
+    display: none;
+  }
+  .list div {
+    width: 30rem;
+  }
+  footer {
+    height: 32rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .section1-div h2 {
+    font-weight: 400;
+    font-size: 4rem;
+    line-height: 4.8rem;
+  }
+  .section1 {
+    margin-top: 1rem;
+  }
+  header {
+    flex-wrap: wrap;
+  }
+  .photo {
+    width: 100%;
+    height: 50rem;
+  }
+  .img-man {
+    margin-left: 0rem;
+  }
+  .section1-div p {
+    line-height: 2rem;
+    width: 30rem;
+  }
+  .section1-div {
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+  }
+  .section1 {
+    width: 100%;
+    flex-direction: column-reverse;
+    margin-top: 21rem;
+  }
+  .decor {
+    display: none;
+  }
+  .section2 {
+    margin-top: 2rem;
+  }
+  .section2-div {
+    flex-direction: column;
+  }
+  .section2 h3 {
+    margin-left: 9.2rem;
+  }
+  .section3 {
+    margin-top: 43rem;
+  }
+  .section3 h3 {
+    font-size: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35rem;
+  }
+  .section3 button {
+    margin-left: 12rem;
+  }
+  .list {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem 0;
+  }
+  .footer-div {
+    width: 100%;
+  }
+  footer {
+    height: 32.3rem;
+  }
+  .section2-div img {
+    margin-left: 18rem;
+  }
+  .section2-div h4 {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 360px) {
+  .section2 h3 {
+    margin-left: 2rem;
+  }
+}
